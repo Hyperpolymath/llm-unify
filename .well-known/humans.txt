@@ -1,0 +1,123 @@
+# humanstxt.org
+# The humans responsible for LLM Unify
+
+# ============================================================================
+# TEAM
+# ============================================================================
+
+# To be filled with actual contributors
+
+# Lead Maintainer
+Name: [To be filled]
+Role: Project Lead, Architecture
+GitHub: @username
+Location: [Location]
+
+# Core Maintainers
+Name: [To be filled]
+Role: Storage & Parsing
+GitHub: @username
+
+Name: [To be filled]
+Role: TUI & CLI
+GitHub: @username
+
+# Contributors
+# Thank you to all our contributors!
+# See https://github.com/Hyperpolymath/llm-unify/graphs/contributors
+
+# ============================================================================
+# SITE
+# ============================================================================
+
+Standards: Rust 2021, RFC 9116, Contributor Covenant 2.1
+Components: Ratatui, SQLx, Clap, Crossterm, Serde
+Software: Rust, SQLite, just, GitLab CI
+
+# ============================================================================
+# TECHNOLOGY
+# ============================================================================
+
+# Languages
+- Rust 1.75+ (primary language)
+- SQL (SQLite 3.35+)
+- Markdown (documentation)
+
+# Core Dependencies
+- ratatui - Terminal UI framework
+- sqlx - Async SQL toolkit
+- clap - Command-line argument parser
+- crossterm - Terminal manipulation
+- serde - Serialization framework
+- tokio - Async runtime
+
+# Build Tools
+- cargo - Rust package manager
+- just - Command runner
+- rustfmt - Code formatter
+- clippy - Linter
+
+# Infrastructure
+- GitLab CI - Continuous integration
+- GitHub - Repository hosting
+- crates.io - Package registry
+
+# ============================================================================
+# PROJECT VALUES
+# ============================================================================
+
+We believe in:
+✓ User autonomy over platform lock-in
+✓ Privacy by default, not by policy
+✓ Open source as a public good
+✓ Accessibility for all users
+✓ Local-first data ownership
+✓ Emotional safety in communities (CCCP)
+✓ Reversibility in software design
+✓ Transparency and accountability
+
+We reject:
+✗ Surveillance capitalism
+✗ Dark patterns and manipulation
+✗ Gatekeeping and elitism
+✗ Burnout culture
+✗ Vendor lock-in
+✗ AI training on user data
+
+# ============================================================================
+# ACKNOWLEDGMENTS
+# ============================================================================
+
+# Inspired by:
+- rhodium-minimal (Rhodium Standard Repository framework)
+- Contributor Covenant (Code of Conduct)
+- Conscious Community Conduct Protocol (CCCP extensions)
+- Keep a Changelog (changelog format)
+- Semantic Versioning (version policy)
+
+# Standing on the shoulders of:
+- The Rust community
+- SQLite developers
+- Ratatui maintainers
+- All open source contributors
+
+# ============================================================================
+# LOCATION
+# ============================================================================
+
+Primary: GitHub (https://github.com/Hyperpolymath/llm-unify)
+Issues: https://github.com/Hyperpolymath/llm-unify/issues
+Discussions: https://github.com/Hyperpolymath/llm-unify/discussions
+
+# ============================================================================
+# TRIVIA
+# ============================================================================
+
+# Project started: 2025-11-28
+# RSR Compliance: Silver (51/55 points)
+# Lines of code: ~3,000+
+# Crates: 6
+# CLI commands: 13
+# Vim bindings: 0 (by design!)
+# Why no Vim bindings? We use j/k for navigation, but we're not vim.
+# Our philosophy: Accessible to everyone, not just vim users.

@@ -1,0 +1,131 @@
+# AI Training and Usage Policy
+# This file declares policies for AI/ML systems regarding this repository
+
+# ============================================================================
+# USER DATA POLICY - ABSOLUTE PROHIBITION
+# ============================================================================
+
+User-Generated-Content: NO_AI_TRAINING
+
+# CRITICAL: User conversation data imported into LLM Unify is ABSOLUTELY
+# PROHIBITED from being used for AI training, analysis, or any form of
+# machine learning. This is a core principle of the project.
+#
+# Rationale: Users trust us with their private conversations. This data
+# represents personal thoughts, sensitive information, and intellectual
+# property. Any AI training on this data would be a fundamental breach
+# of trust and privacy.
+
+# ============================================================================
+# SOURCE CODE POLICY
+# ============================================================================
+
+Code: NO_AI_TRAINING_WITHOUT_PERMISSION
+
+# The source code of LLM Unify is licensed under AGPL-3.0-or-later.
+# While the license permits study and modification, we request that AI
+# training systems respect the following:
+#
+# - Do NOT train on this code without explicit permission
+# - If permission granted, maintain attribution
+# - Respect the AGPL-3.0 copyleft requirements
+# - Any AI-generated code based on this project must be AGPL-3.0
+#
+# Permission requests: ai-training@llm-unify.dev
+
+# ============================================================================
+# DOCUMENTATION POLICY
+# ============================================================================
+
+Documentation: CONDITIONAL_WITH_ATTRIBUTION
+
+# Documentation (README.md, CONTRIBUTING.md, etc.) may be used for AI
+# training under the following conditions:
+#
+# 1. Attribution to "LLM Unify Project" is maintained
+# 2. Link to https://github.com/Hyperpolymath/llm-unify is preserved
+# 3. Not used to train models that compete with this project
+# 4. Any derivative documentation acknowledges the source
+#
+# We believe in knowledge sharing, but also in proper attribution.
+
+# ============================================================================
+# RESEARCH AND ACADEMIC USE
+# ============================================================================
+
+Research: CONTACT_FOR_PERMISSION
+
+# Academic researchers studying:
+# - Privacy-preserving AI systems
+# - Local-first architectures
+# - Open source governance models
+# - Ethical AI development
+#
+# Please contact: research@llm-unify.dev
+#
+# We're generally supportive of academic research but want to ensure
+# proper context and prevent misuse.
+
+# ============================================================================
+# COMMERCIAL AI SYSTEMS
+# ============================================================================
+
+Commercial-AI: PROHIBITED_WITHOUT_LICENSE
+
+# Commercial AI systems (e.g., GitHub Copilot, ChatGPT, Claude) must:
+#
+# 1. NOT train on user data (see User-Generated-Content above)
+# 2. Respect AGPL-3.0 for code usage
+# 3. Contact for commercial licensing if needed
+# 4. Maintain full attribution and copyleft compliance
+#
+# Contact: commercial@llm-unify.dev
+
+# ============================================================================
+# ETHICAL AI PRINCIPLES
+# ============================================================================
+
+# This project adheres to the following AI ethics principles:
+#
+# 1. USER PRIVACY FIRST
+#    - User data never leaves their machine
+#    - No telemetry, analytics, or phone-home behavior
+#    - Users own their data absolutely
+#
+# 2. TRANSPARENCY
+#    - Open source (AGPL-3.0)
+#    - Documented security considerations
+#    - Clear AI training policies (this file)
+#
+# 3. CONSENT
+#    - Users explicitly import their data
+#    - No surprise data collection
+#    - Clear terms and policies
+#
+# 4. ACCOUNTABILITY
+#    - Maintainer governance model
+#    - Public issue tracking
+#    - Security reporting process
+#
+# 5. REVERSIBILITY
+#    - Users can export their data anytime
+#    - Delete functionality available
+#    - No vendor lock-in
+
+# ============================================================================
+# CONTACT INFORMATION
+# ============================================================================
+
+Contact: ai-policy@llm-unify.dev
+Policy-Version: 1.0
+Last-Updated: 2025-11-28
+
+# ============================================================================
+# ATTRIBUTION
+# ============================================================================
+
+# If you use any part of this project in AI training (with permission),
+# please attribute as:
+#
+# "Based on LLM Unify (https://github.com/Hyperpolymath/llm-unify),
+#  licensed under AGPL-3.0-or-later"

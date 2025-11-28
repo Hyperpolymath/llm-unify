@@ -1,0 +1,102 @@
+# LLM Unify
+
+**A unified interface for managing conversations across multiple LLM platforms**
+
+[![RSR Compliance](https://img.shields.io/badge/RSR-Silver-C0C0C0)](./RSR-COMPLIANCE.md)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](./LICENSE)
+[![TPCF: Perimeter 3](https://img.shields.io/badge/TPCF-Perimeter%203-green)](./CONTRIBUTING.md)
+
+## Overview
+
+LLM Unify provides a local-first, privacy-focused solution for managing your AI conversations across multiple platforms. Import, search, and browse your chat histories from ChatGPT, Claude, Gemini, and other LLM providers through a unified interface.
+
+## Features
+
+- **Multi-Platform Support**: Import conversations from ChatGPT, Claude, Gemini, Copilot, and more
+- **Local-First**: All data stored locally in SQLite - no cloud dependencies
+- **Privacy-Focused**: Your conversations never leave your machine
+- **Powerful Search**: Full-text search across all conversations
+- **Modern TUI**: Terminal user interface built with Ratatui
+- **Comprehensive CLI**: 13 commands for complete control
+- **Zero Unsafe Code**: Memory-safe Rust implementation
+
+## Installation
+
+```bash
+cargo install llm-unify-cli
+```
+
+## Quick Start
+
+```bash
+# Import ChatGPT conversations
+llm-unify import chatgpt ./conversations.json
+
+# Launch TUI
+llm-unify tui
+
+# Search conversations
+llm-unify search "rust async"
+
+# List all conversations
+llm-unify list
+```
+
+## Architecture
+
+LLM Unify is built as a Rust workspace with 6 crates:
+
+- **llm-unify-core**: Provider traits and domain models
+- **llm-unify-storage**: SQLite persistence layer
+- **llm-unify-parser**: Import parsers for various platforms
+- **llm-unify-search**: Full-text search implementation
+- **llm-unify-cli**: Command-line interface
+- **llm-unify-tui**: Terminal UI
+
+## Documentation
+
+- [Contributing Guide](./CONTRIBUTING.md) - How to contribute
+- [Security Policy](./SECURITY.md) - Vulnerability reporting
+- [Code of Conduct](./CODE_OF_CONDUCT.md) - Community standards
+- [Maintainers](./MAINTAINERS.md) - Governance model
+- [Changelog](./CHANGELOG.md) - Release history
+- [RSR Compliance](./RSR-COMPLIANCE.md) - Rhodium Standard compliance
+
+## Project Philosophy
+
+We believe in:
+- User autonomy over platform lock-in
+- Privacy by default, not by policy
+- Open source as a public good
+- Accessibility for all users
+- Local-first data ownership
+
+We reject:
+- Surveillance capitalism
+- Dark patterns and manipulation
+- Gatekeeping and elitism
+
+## License
+
+This project is dual-licensed:
+
+- **AGPL-3.0-or-later** for the codebase
+- **Palimpsest Protocol** for data portability
+
+See [LICENSE](./LICENSE) and [LICENSE-PALIMPSEST](./LICENSE-PALIMPSEST) for details.
+
+## Community
+
+- **TPCF Perimeter**: Perimeter 3 (Community Sandbox)
+- **Code of Conduct**: Contributor Covenant 2.1 + CCCP extensions
+- **Governance**: Consensus-seeking with voting fallback
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for participation guidelines.
+
+## Acknowledgments
+
+See [.well-known/humans.txt](./.well-known/humans.txt) for credits and attribution.
+
+---
+
+*No AI training on user data. See [.well-known/ai.txt](./.well-known/ai.txt) for our AI policy.*

@@ -1,0 +1,50 @@
+# RFC 9116 Compliant Security Contact Information
+# https://www.rfc-editor.org/rfc/rfc9116.html
+
+Contact: mailto:security@llm-unify.dev
+Expires: 2026-11-28T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://github.com/Hyperpolymath/llm-unify/.well-known/security.txt
+
+# Encryption
+Encryption: https://github.com/Hyperpolymath/llm-unify/blob/main/.well-known/pgp-key.asc
+
+# Policy
+Policy: https://github.com/Hyperpolymath/llm-unify/blob/main/SECURITY.md
+
+# Acknowledgments
+Acknowledgments: https://github.com/Hyperpolymath/llm-unify/blob/main/SECURITY.md#security-audit-history
+
+# Hiring
+# Not applicable - community open source project
+
+# Additional Information
+# Response Timeline:
+# - Critical vulnerabilities: 7 days
+# - High severity: 14 days
+# - Medium severity: 30 days
+# - Low severity: 60 days
+#
+# What to Include in Reports:
+# 1. Description of the vulnerability
+# 2. Steps to reproduce
+# 3. Proof of concept (if applicable)
+# 4. Impact assessment
+# 5. Suggested fix (if available)
+#
+# Security Measures:
+# - Zero unsafe code blocks
+# - SQL injection prevention via parameterized queries
+# - Input validation and sanitization
+# - Regular dependency audits (cargo audit)
+# - Local-first architecture (no network calls)
+#
+# Known Limitations:
+# - Database not encrypted by default in v0.1
+# - Relies on file system permissions
+# - Database encryption planned for v0.2
+#
+# Current Security Status:
+# - RSR Silver Level Compliance
+# - Internal audit completed: 2025-11-28
+# - External audit planned: Q1 2025

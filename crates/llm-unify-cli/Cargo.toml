@@ -1,0 +1,22 @@
+[package]
+name = "llm-unify-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "llm-unify"
+path = "src/main.rs"
+
+[dependencies]
+llm-unify-core = { workspace = true }
+llm-unify-storage = { workspace = true }
+llm-unify-parser = { workspace = true }
+llm-unify-search = { workspace = true }
+llm-unify-tui = { workspace = true }
+clap = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+serde_json = { workspace = true }

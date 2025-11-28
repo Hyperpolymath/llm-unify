@@ -1,0 +1,78 @@
+# Palimpsest Protocol License
+
+## Data Portability and User Ownership
+
+This license applies to user data handled by LLM Unify.
+
+### Principles
+
+1. **User Ownership**: Users absolutely own their conversation data
+2. **Portability**: Data can be exported in standard formats (JSON)
+3. **No Lock-in**: Users can migrate to other platforms at any time
+4. **Privacy**: Data never leaves the user's machine
+5. **Reversibility**: Users can delete all data at any time
+
+### Guarantees
+
+LLM Unify guarantees:
+
+- ✅ All user data stays local (no cloud sync)
+- ✅ Export functionality (`llm-unify export`)
+- ✅ Delete functionality (`llm-unify delete`)
+- ✅ Standard JSON format for exports
+- ✅ No proprietary lock-in formats
+- ✅ No AI training on user data (see .well-known/ai.txt)
+
+### User Rights
+
+Users of LLM Unify have the right to:
+
+1. **Access**: View all their data at any time
+2. **Export**: Extract data in portable format
+3. **Delete**: Remove all traces of their data
+4. **Modify**: Edit their local database directly
+5. **Transfer**: Move data to other platforms
+6. **Privacy**: Keep data completely private
+
+### Implementation
+
+LLM Unify implements these rights through:
+
+- Local SQLite database (user controls file)
+- JSON export format (universal compatibility)
+- Delete commands (conversation-level and full wipe)
+- No network dependencies (offline-first)
+- Open source (AGPL-3.0 for code)
+
+### No Exceptions
+
+There are NO exceptions to user data ownership:
+
+- ❌ No mandatory cloud sync
+- ❌ No analytics or telemetry
+- ❌ No AI training on user data
+- ❌ No proprietary formats
+- ❌ No vendor lock-in
+
+### Enforcement
+
+This data portability commitment is enforced by:
+
+1. **Architecture**: Local-first design (no network calls)
+2. **License**: AGPL-3.0 copyleft for code
+3. **RSR Compliance**: Offline-first requirement
+4. **Community**: Open governance model
+
+### Contact
+
+For questions about data portability:
+- Email: privacy@llm-unify.dev
+- Issues: https://github.com/Hyperpolymath/llm-unify/issues
+
+---
+
+**Version:** 1.0
+**Last Updated:** 2025-11-28
+
+This protocol is inspired by the principles of data portability, user
+ownership, and rejection of surveillance capitalism.
