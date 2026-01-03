@@ -1,8 +1,10 @@
+image:https://img.shields.io/badge/License-MPL_2.0-blue.svg[MPL-2.0,link="https://opensource.org/licenses/MPL-2.0"]
+image:https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg[Palimpsest,link="https://github.com/hyperpolymath/palimpsest-licence"]
+
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // SPDX-FileCopyrightText: 2025 LLM Unify Contributors
 = LLM Unify
 
-image:https://img.shields.io/badge/license-AGPL--3.0-blue.svg[AGPL-3.0,link="https://www.gnu.org/licenses/agpl-3.0"] image:https://img.shields.io/badge/philosophy-Palimpsest-purple.svg[Palimpsest,link="https://github.com/hyperpolymath/palimpsest-licence"]
 :toc: macro
 :toclevels: 2
 :icons: font
@@ -11,7 +13,6 @@ image:https://img.shields.io/badge/license-AGPL--3.0-blue.svg[AGPL-3.0,link="htt
 *A local-first, privacy-focused tool for managing conversations across multiple LLM platforms*
 
 image:https://img.shields.io/badge/RSR-Silver-C0C0C0[RSR Compliance,link=./RSR-COMPLIANCE.md]
-image:https://img.shields.io/badge/License-AGPL--3.0-blue.svg[License: AGPL-3.0,link=./LICENSE]
 image:https://img.shields.io/badge/TPCF-Perimeter%203-green[TPCF: Perimeter 3,link=./CONTRIBUTING.md]
 image:https://img.shields.io/badge/Rust-1.75+-orange.svg[Rust 1.75+]
 image:https://img.shields.io/badge/unsafe-0%20blocks-brightgreen.svg[Zero Unsafe]
